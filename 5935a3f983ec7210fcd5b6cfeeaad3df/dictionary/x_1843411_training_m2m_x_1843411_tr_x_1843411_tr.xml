@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b8ef84c283e0b210fcd5b6cfeeaad3a7" label="x_1843411_training_m2m_Students_Deliveries" max_length="40" name="x_1843411_training_m2m_x_1843411_tr_x_1843411_tr" type="collection">
+        <element attributes="encode_utf8=false" label="Students" max_length="32" name="x_1843411_training_students" reference="x_1843411_training_students" type="reference"/>
+        <element attributes="encode_utf8=false" label="Deliveries" max_length="32" name="x_1843411_training_delivery" reference="x_1843411_training_delivery" type="reference"/>
+        <index name="index">
+            <element name="x_1843411_training_delivery"/>
+        </index>
+        <index name="index2">
+            <element name="x_1843411_training_students"/>
+        </index>
+    </element>
+</database>
