@@ -3,6 +3,7 @@
         <element choice="3" label="Type" max_length="40" name="type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Full-Stack" sequence="0" value="Full-Stack"/>
+                <element inactive_on_update="false" label="u_capability_import_set" sequence="0" value="u_capability_import_set"/>
                 <element inactive_on_update="false" label="Full Stack" sequence="1" value="full_stack"/>
                 <element inactive_on_update="false" label="COTS" sequence="0" value="cots"/>
             </choice>
